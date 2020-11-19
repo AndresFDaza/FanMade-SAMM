@@ -1,0 +1,11 @@
+.ReportUploadResource__container {
+  background-color: var(--color-background-white);
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 4;
+}
+
+.ReportUploadResource__container > h3 {
+  background-color: var(--color-principal-blue);
+  text-align: center;
+}

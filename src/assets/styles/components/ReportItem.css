@@ -1,0 +1,34 @@
+.reportItem__container {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 2;
+  padding: 1em;
+  background-color: var(--color-background-white);
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+.reportItem__longInfo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  color: var(--color-gray-text-dark);
+}
+
+.reportItem__shortInfo > h3 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.reportItem__shortInfo > p {
+  color: white;
+  background-color: var(--color-principal-orange);
+  text-align: center;
+}
+
+.reportItem__img {
+  width: 100%;
+  padding: 1em;
+}

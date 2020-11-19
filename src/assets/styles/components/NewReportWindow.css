@@ -1,0 +1,6 @@
+.NewReportWindow__wrapper {
+  padding: 5%;
+  /* height: 100vh; */
+  /* background-color: blue; */
+  border-bottom: 2px solid var(--color-background-white);
+}

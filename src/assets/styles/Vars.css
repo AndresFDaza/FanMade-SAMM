@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&family=Maven+Pro:wght@400;700&display=swap");
+
+:root {
+  --color-principal-blue: #2d659a;
+  --color-principal-orange: #ff7000;
+  --color-principal-green: #cec32b;
+  --color-light-blue: #e0effb;
+  --color-background-white: #f3f3f5;
+  --color-gray-text-light: #9b9d9e;
+  --color-gray-text-dark: #747474;
+
+  --title-font: "Be Vietnam", sans-serif;
+  --text-font: "Maven Pro", sans-serif;
+}

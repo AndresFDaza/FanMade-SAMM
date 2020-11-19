@@ -1,0 +1,33 @@
+.header__container {
+  display: grid;
+  grid-template-columns: 20% 1fr 30%;
+  border-bottom: 2px solid var(--color-background-white);
+  padding-bottom: 0.1em;
+}
+
+.header__inbox-icon-container {
+  display: inline-block;
+  background-color: var(--color-principal-blue);
+  padding: 1rem;
+}
+
+.header__inbox-icon {
+  width: 90%;
+}
+
+.header__title {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0.5em;
+  color: var(--color-gray-text-dark);
+}
+
+.header__logo-container {
+  display: inline-block;
+  padding: 0.3rem 0.25rem;
+}
+
+.header__logo-img {
+  width: 100%;
+}

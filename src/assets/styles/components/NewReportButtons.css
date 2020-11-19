@@ -1,0 +1,21 @@
+.NewReportButtons__container {
+  background-color: var(--color-background-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  text-align: center;
+}
+
+.NewReportButtons__button {
+  display: inline-block;
+  cursor: pointer;
+  background-color: var(--color-principal-orange);
+  border-radius: 0.4em;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.NewReportButtons__button > img {
+  width: 10%;
+}
