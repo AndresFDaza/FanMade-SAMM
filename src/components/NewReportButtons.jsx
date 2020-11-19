@@ -9,10 +9,10 @@ const NewReportButtons = () => (
       <p>Previsualizar</p>
       <img src={visualizeIcon} alt="visual icon" />
     </div>
-    <div className="NewReportButtons__button">
+    <button type="submit" className="NewReportButtons__button">
       <p>Reportar</p>
       <img src={uploadIcon} alt="upload icon" />
-    </div>
+    </button>
   </div>
 );
 
